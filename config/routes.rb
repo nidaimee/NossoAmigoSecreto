@@ -11,4 +11,4 @@ Rails.application.routes.draw do
   end
   get 'members/:token/opened', to: 'members#opened'
   resources :members, only: [:create, :destroy, :update]
-end
+ end
